@@ -3,7 +3,7 @@
 
 keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
 
-## usage:
+## Usage:
 
   Please edit variables below in the main Function before executing the script.
   
@@ -11,7 +11,7 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
   * Change 'output_dir' for multiple star file generation. If output_dir does not exist, a new dir will be created.
   * Jupyter lab will be helpful.
 
-## use Function 'parse_and_preview' to plot angular Distribution
+## Use Function 'parse_and_preview' to plot angular Distribution
   **input:**
   
     star_file:path-like str
@@ -37,7 +37,7 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
    
    a json file will also be generated to save list[(Rot,Tilt,Psi,particle-name:str)] parsed from run_data.star.
    
-## use Function 'fix_euler_distribution' to plot angular Distribution
+## Use Function 'fix_euler_distribution' to plot angular Distribution
   **input:**
   
     star_file:path-like str. original run_data.star.
@@ -81,14 +81,14 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
 ## Jupyter lab will be helpful
   By using the output star file as input, you are able to check angular Distribution conviniently from the heatmap to tell whether to remove more or not.
   
-### examples
-#### before removal
+### Examples
+#### Before removal
 
 ![heatmap before removal](./heatmap_rotvstilt_before.png)
 
 ![auto_mode_sorted_NrParticles_before_removal](./normal_mode_sorted_NrParticles_before_removal.png)
 
-#### after rounds of removal
+#### After rounds of removal
 
 ![heatmap after removal](./heatmap_rotvstilt.png)
 
