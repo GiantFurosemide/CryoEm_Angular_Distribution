@@ -84,9 +84,9 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
 ### examples
 #### before removal
 
-![heatmap after removal](./heatmap_rotvstilt.png)
+![heatmap before removal](./heatmap_rotvstilt_before.png)
 
-![heatmap after removal](./heatmap_rotvstilt.png)
+![auto_mode_sorted_NrParticles_before_removal](./auto_mode_sorted_NrParticles_before_removal.png)
 
 #### after rounds of removal
 
