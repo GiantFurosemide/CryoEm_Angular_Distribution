@@ -73,7 +73,7 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
   
   Another round of 'parse_and_preview' with new star file will be helpful to compare the angular distribution before and after removal.
   
-  When using **'auto-mode'** should input True Flag in Function 'fix_euler_distribution'.
+  When using **'auto-mode'**, you should input True Flag in Function 'fix_euler_distribution'.
   Instead of inputing a Euler angle range to select sections, all sections (all intervals in heatmap) will be sorted by the number of particles.
   'select_percent' will select sections from the sections with most particles to the least until the selected particle number reach the ('select_percent' x total particle number). Then, for each selected section, random particles will be deleted by 'remove_percent'.
   
@@ -86,7 +86,7 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
 
 ![heatmap before removal](./heatmap_rotvstilt_before.png)
 
-![auto_mode_sorted_NrParticles_before_removal](./auto_mode_sorted_NrParticles_before_removal.png)
+![auto_mode_sorted_NrParticles_before_removal](./normal_mode_sorted_NrParticles_before_removal.png)
 
 #### after rounds of removal
 
