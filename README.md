@@ -5,10 +5,10 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
 
 ## usage:
 
-  Please edit varibles below in main Function before executing script.
+  Please edit variables below in the main Function before executing the script.
   
-  * Change 'star_file' as original star file.(only relion3.1 run_data.star from Refine3D tested)
-  * Change 'output_dir' for multiple star file generation. If output_dir does not exist, new dir will be created.
+  * Change 'star_file' as the original star file.(only relion3.1 run_data.star from Refine3D tested)
+  * Change 'output_dir' for multiple star file generation. If output_dir does not exist, a new dir will be created.
   * Jupyter lab will be helpful.
 
 ## use Function 'parse_and_preview' to plot angular Distribution
@@ -71,15 +71,15 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
   For example, when Rot_min=10,Rot_max=60,Tilt_min=10,Tilt_max=60,remove_percent=0.3,particle_number_threshold=1700,
   script will delete 30% particles randomly for each section, of which particle number is larger than 1700 and section in range_rot(10,60),range_tilt(10,60).
   
-  Another round of 'parse_and_preview' with new star file will be helpful to compare the angular distribution before and after removal.
+  Another round of 'parse_and_preview' with the new star file will be helpful to compare the angular distribution before and after removal.
   
   When using **'auto-mode'**, you should input True Flag in Function 'fix_euler_distribution'.
-  Instead of inputing a Euler angle range to select sections, all sections (all intervals in heatmap) will be sorted by the number of particles.
+  Instead of inputting an Euler angle range to select sections, all sections (all intervals in the heatmap) will be sorted by the number of particles.
   'select_percent' will select sections from the sections with most particles to the least until the selected particle number reach the ('select_percent' x total particle number). Then, for each selected section, random particles will be deleted by 'remove_percent'.
   
   
-## jupyter lab will be helpful
-  By using output star file as input, you are able to check angular Distribution conviniently from heatmap to tell whether to remove more or not.
+## Jupyter lab will be helpful
+  By using the output star file as input, you are able to check angular Distribution conviniently from the heatmap to tell whether to remove more or not.
   
 ### examples
 #### before removal
