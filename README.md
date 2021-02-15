@@ -80,3 +80,18 @@ keywords: Cryo-Em,relion,relin3.1,angular distribution,Euler angle
   
 ## jupyter lab will be helpful
   By using output star file as input, you are able to check angular Distribution conviniently from heatmap to tell whether to remove more or not.
+  
+### examples
+#### before removal
+
+![heatmap after removal](./heatmap_rotvstilt.png)
+
+![heatmap after removal](./heatmap_rotvstilt.png)
+
+#### after rounds of removal
+
+![heatmap after removal](./heatmap_rotvstilt.png)
+
+![auto_mode_sorted_NrParticles_after_removal](./auto_mode_sorted_NrParticles_after_removal.png)
+
+
