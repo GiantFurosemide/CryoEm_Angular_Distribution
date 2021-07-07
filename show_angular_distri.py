@@ -252,7 +252,7 @@ class EulerAngleViewer:
                 group_particle_indices.append((set(index_i) & set(index_j)))
 
         group_particle_number = np.array(group_particle_number, dtype=float)
-        group_particle_number_matrix = group_particle_number.reshape(72, -1).T
+        group_particle_number_matrix = group_particle_number.reshape(int(len(grouped_rot)), -1).T
         group_particle_number_matrix = np.flip(group_particle_number_matrix, 0)
 
         #
